@@ -10,13 +10,16 @@ Note: use figures
 * Data found on Progenetix:
   > For data content, additions include the complete incorporation of the previously separate arrayMap data collection and of datasets from external resources and projects such as The Cancer Genome Atlas (TCGA) or cBioPortal, as well as the recurrent collection and re-processing of array-based data from National Center for Biotechnology Information (NCBI)’s Gene Expression Omnibus (GEO) or Euro- pean Molecular Biology Laboratory-European Bioinformatics Institute (EMBL-EBI)’s ArrayExpress.
 
-![This is an image](progenetix-data-resources.png)
+![data-resources](progenetix-data-resources.png)
 
 * metadata updates:
   * ICD-O-3 is used for cancer sample classification
   * all cancer samples in Progenetix have been annotated with an NCIt code (788 distinct NCIt codes in total), which can be visualized in a hierarchical tree
+
+![samples-hierarchy](samples-hierarchy.png)
+
   * cancer genomes are grouped in 51 NCIt nodes
-  * grouping of cancer types can be used to assess differnces in the CNV landscape among the differnt 
+  * grouping of cancer types can be used to assess differences in the CNV landscape among the groups
 
 
 
