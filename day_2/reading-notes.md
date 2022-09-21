@@ -10,6 +10,13 @@ Note: use figures
 * Data found on Progenetix:
   > For data content, additions include the complete incorporation of the previously separate arrayMap data collection and of datasets from external resources and projects such as The Cancer Genome Atlas (TCGA) or cBioPortal, as well as the recurrent collection and re-processing of array-based data from National Center for Biotechnology Information (NCBI)’s Gene Expression Omnibus (GEO) or Euro- pean Molecular Biology Laboratory-European Bioinformatics Institute (EMBL-EBI)’s ArrayExpress.
 
+![This is an image](progenetix-data-resources.png)
+
+* metadata updates:
+  * ICD-O-3 is used for cancer sample classification
+  *    
+
+
 
 
 # Questions
