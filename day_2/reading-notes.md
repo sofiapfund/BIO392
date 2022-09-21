@@ -26,7 +26,6 @@
   * provenance by geography: each sample contains information about its provenances in the form of geographic coordinates
   * provenance by ancestry group: possible in the case of samples where SNP data is accessible
 
-
 # Questions
 1. **what is CNV/CNA?**
 
