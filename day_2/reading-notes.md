@@ -28,13 +28,13 @@
 
 
 # Questions
-* **what is CNV/CNA?**
+1. **what is CNV/CNA?**
 
   * **CNV** (copy number variation) is usually used to refer to *germline events*, which are variants in the population.
 
   * **CNA** (copy number aberration) is usually used to refer to *somatic events*, like those found in tumors.
 
-* **how will you describe or introduce progenetix? (scale, data source, cancer types and so on)**
+2. **how will you describe or introduce progenetix? (scale, data source, cancer types and so on)**
 
 Description found on the main page of the [Progenetix website](https://progenetix.org):
 > The Progenetix database provides an overview of mutation data in cancer, with a focus on copy number abnormalities (CNV / CNA), for all types of human malignancies. 
@@ -42,7 +42,7 @@ Description found on the main page of the [Progenetix website](https://progeneti
 
 Progenetix uses ICD-O-3 is for cancer sample classification. More specifically, cancer genomes are grouped into 51 NCIt nodes that can be visualized as a hierarchical tree. Progenetix also contains samples of cancer cell lines, as they are an important model for understainding the molecular mechanisms of cancer.
 
-* **what are CNV segmentations and CNV frequencies and how to use them?**
+3. **what are CNV segmentations and CNV frequencies and how to use them?**
 
   * CNV segmentation? (couldn't find a definition...)
 
@@ -50,7 +50,7 @@ Progenetix uses ICD-O-3 is for cancer sample classification. More specifically, 
 
 The fraction of genome with a copy number alteration (CNV fraction) varies widely among the cancer types. CNV frequencies can be used to assess differences among different cancer genomes that have been previously grouped into 51 NCIt nodes.
  
-* **what are APIs and how to use APIs in progenetix?**
+4. **what are APIs and how to use APIs in progenetix?**
 
 **API**: **A**pplication **P**rogramming **I**nterface
 
@@ -58,7 +58,7 @@ An API is a way for two or more computer programs to communicate with each other
 
 Progenetix uses the GA4GH Beacon API for querying of genomic data.
 
-* **how does progenetix visualise CNA profiles?**
+5. **how does progenetix visualise CNA profiles?**
 
 CNA profiles can be visualized by making a querying on this [Progenetix page](https://progenetix.org/biosamples/). An example of a result would be the following:
 
@@ -66,7 +66,7 @@ CNA profiles can be visualized by making a querying on this [Progenetix page](ht
 
 Results of the query also contain some basic statistics and download options.
 
-* **what do you think should be improved in progenetix?**
+6. **what do you think should be improved in progenetix?**
 
 Maybe add more types of genomic variant data to the database (not only CNV data) 🤓
 
