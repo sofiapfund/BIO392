@@ -14,7 +14,9 @@ Note: use figures
 
 * metadata updates:
   * ICD-O-3 is used for cancer sample classification
-  *    
+  * all cancer samples in Progenetix have been annotated with an NCIt code (788 distinct NCIt codes in total), which can be visualized in a hierarchical tree
+  * cancer genomes are grouped in 51 NCIt nodes
+  * grouping of cancer types can be used to assess differnces in the CNV landscape among the differnt 
 
 
 
