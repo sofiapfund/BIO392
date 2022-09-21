@@ -15,7 +15,8 @@ with open(data, newline='') as f:
                 new_file.write(line)
 
 # check new file
-print(new_file)
+df = pd.read_csv('table.cvs', sep='\t')
+print(df)
 
 
 
