@@ -6,7 +6,7 @@ I love ☕ and 💃 (use ":" before the name of the emoji to display the emoji)
 ```piece of code
 for (auto x : v) {
   f();
-}
+};
 ```
 # Markdown
 ## Markdown
