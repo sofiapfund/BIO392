@@ -39,7 +39,7 @@ Notes:
 **Q4 - Given the low abundance in exons, where do they jump?
 Promoters? enhancers? heterochromatin? other repetitive elements?**
 
-Jumps are manly occuring in heterochromatine.
+Jumps are manly occuring in heterochromatine. Jumping can't happen anywhere: you need some sequence similarity ▶️ repetitive elements!
 
 **Q5 - What can we use as a reference, how do we assign `functions' to all nucleotides in a genome?**
 
