@@ -9,14 +9,18 @@
 
 **Q2 - How many insertions are there in exons? What do we expect?**
 
-110.
+110: nr of insertions sites in exons
 
-Expected: not many insertions, cause they could lead to non-functional gene products. More insertions should happen in non-coding regions, where indels don't have that big of a functional impact...
+3225: tot nr of insertion sites
+
+Expected: not many insertions, cause they could lead to non-functional gene products. More insertions should happen in non-coding regions, where indels don't have that big of a functional impact... 
+
+It therefore makes sense that the mobile elements with the most insertions are the one in heterocromatine (non-coding regions).
 
 
 **Q3 - How can we quantify those?**
 
-Use the following command:
+Use the following command to quantify nr of insertions site in exons:
 ```
 bedtools intersect -a CEU.low_coverage.2010_10.MobileElementInsertions.sites.vcf -b exons_nochr.bed | wc -l
 ```
@@ -26,7 +30,7 @@ Notes:
 2. remove "chr" in the .bed file so that it can be compared with the .vcf file (`exons.bed` ▶️ `exons_nochr.bed`)
 
 
-Given the low abundance in exons, where do they jump?
-Promoters? enhancers? heterochromatin? other repetitive elements?
+**Q4 - Given the low abundance in exons, where do they jump?
+Promoters? enhancers? heterochromatin? other repetitive elements?**
 
-What can we use as a reference, how do we assign `functions' to all nucleotides in a genome?
+**Q5 - What can we use as a reference, how do we assign `functions' to all nucleotides in a genome?**
