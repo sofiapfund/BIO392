@@ -33,4 +33,8 @@ Notes:
 **Q4 - Given the low abundance in exons, where do they jump?
 Promoters? enhancers? heterochromatin? other repetitive elements?**
 
+Jumps are manly occuring in heterochromatine.
+
 **Q5 - What can we use as a reference, how do we assign `functions' to all nucleotides in a genome?**
+
+Usually functions are assigned based on similarity of the coding sequences to sequences of known genes (similar sequences ▶️ similar function). Different ways to measure sequence similarity exist. 
