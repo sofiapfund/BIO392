@@ -1,5 +1,10 @@
 # Theory
 
+* CDS (coding sequences) are a samall part of the genome
+* repeates are abundand
+* repeats play a role in genome architecture
+* transposable elements: 
+* mobile elements: 
 
 # Answers for the 1000 genomes data project - 2022/09/23
 
@@ -13,7 +18,7 @@
 
 3225: tot nr of insertion sites
 
-Expected: not many insertions, cause they could lead to non-functional gene products. More insertions should happen in non-coding regions, where indels don't have that big of a functional impact... 
+Expected: not many insertions, cause they could lead to non-functional gene products (and disease). More insertions should happen in non-coding regions, where indels don't have that big of a functional impact... 
 
 It therefore makes sense that the mobile elements with the most insertions are the one in heterocromatine (non-coding regions).
 
@@ -38,3 +43,6 @@ Jumps are manly occuring in heterochromatine.
 **Q5 - What can we use as a reference, how do we assign `functions' to all nucleotides in a genome?**
 
 Usually functions are assigned based on similarity of the coding sequences to sequences of known genes (similar sequences ▶️ similar function). Different ways to measure sequence similarity exist. 
+
+**Caveats and challenges in this kind of analysis**
+
