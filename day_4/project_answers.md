@@ -1,10 +1,11 @@
 # Theory
 
-* CDS (coding sequences) are a samall part of the genome
+* CDS (coding sequences) are a small part of the genome (4% of the total genome - including introns!)
 * repeates are abundand
 * repeats play a role in genome architecture
-* transposable elements: 
-* mobile elements: 
+* transposable elements (or mobile elements): 
+  > A transposable element (TE, transposon, or jumping gene) is a nucleic acid sequence in DNA that can change its position within a genome, sometimes creating or reversing mutations and altering the cell's genetic identity and genome size. (from Wikipedia)
+
 
 # Answers for the 1000 genomes data project - 2022/09/23
 
