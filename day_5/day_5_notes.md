@@ -16,9 +16,15 @@
 
 * sequences like telomeres and centromeres have a lot of repeat and are hard to sequence 
 
+* exome sequencing: information about exomes is extracted by means of reverse transcription (aka starting from RNA)
+
+* target gene panel: very high depth and precise, but you will miss out on a lot of information (not good to study unknown variants; only good to find whether known variants are present ▶️ good for diagnostics)
+
 ### Genomic File Formats
 
-
+* **one 30x BAM file = 100 GB**
+* either **text** or **binary** formats are used 
+* what are possible ways to compress a **BAM** even more? Comparison to a reference genome: only store the differences compared to the reference genome (**CRAM**): there is an API for this ▶️ RefGet
 
 ### Terminology
 BAC = bacterial artificial chromosome
