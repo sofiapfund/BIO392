@@ -25,6 +25,10 @@
 * **one 30x BAM file = 100 GB**
 * either **text** or **binary** formats are used 
 * what are possible ways to compress a **BAM** even more? Comparison to a reference genome: only store the differences compared to the reference genome (**CRAM**): there is an API for this ▶️ RefGet
+* ‼️ VCF (**slide 15**): variant call format ▶️ why "call"? 
+
+### Genome Editions
+
 
 ### Terminology
 BAC = bacterial artificial chromosome
