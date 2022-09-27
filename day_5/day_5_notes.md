@@ -6,6 +6,16 @@
 3. Array Comparative Genomic Hybridization (aCGH - **direct** attribution of involved target genes)
 
 ### Genome Analysis
+* SNP Genotyping: only look at specific alterations in the genomes
+
+* Whole Exome Sequencing: only look at the part of the genome that contains protein coding genes (exomes)
+
+* Sanger Sequencing vs. NGS 
+
+* Advantage of Nanopore sequencing: can sequence very long reads (con: fidelity not very high: not good to identify new SNPs and for disease diagnostics!)
+
+### Genomic File Formats
+
 
 
 ### Terminology
