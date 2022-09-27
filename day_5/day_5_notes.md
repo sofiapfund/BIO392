@@ -12,7 +12,9 @@
 
 * Sanger Sequencing vs. NGS 
 
-* Advantage of Nanopore sequencing: can sequence very long reads (**con**: fidelity not very high: not good to identify new SNPs and for disease diagnostics! **pro**: identify DNA of known composition and for de-novo assembly for telomere regions)
+* Advantage of Nanopore sequencing: can sequence very long reads (**cons**: fidelity not very high: not good to identify new SNPs and for disease diagnostics! **pros**: identify DNA of known composition and for de-novo assembly for telomere/repeat regions)
+
+* sequences like telomeres and centromeres have a lot of repeat and are hard to sequence 
 
 ### Genomic File Formats
 
