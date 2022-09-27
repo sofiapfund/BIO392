@@ -26,6 +26,10 @@
 * either **text** or **binary** formats are used 
 * what are possible ways to compress a **BAM** even more? Comparison to a reference genome: only store the differences compared to the reference genome (**CRAM**): there is an API for this ▶️ RefGet
 * ‼️ VCF (**slide 15**): variant call format ▶️ why "call"? 
+    * good because you don't have to store sequences 😄
+    * inefficient when you have many samples: with 1000s of individuals it gets messy 😞   
+    * in a given population, most calls are from frequent variants 
+    * not good for structure variants 😞
 
 ### Genome Editions
 
