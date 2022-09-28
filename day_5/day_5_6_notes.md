@@ -60,6 +60,14 @@ Many different places where sequences are stored.
 ### Resources for genome variant data
 * NCBI:dbSNP, NCBI:dbVAR, NCBI:ClinVar, EMBL-EBI:EVA
 
+### Resources for cancer genomics
+* COSMIC
+
+### Beyond a single resource: federation
+* data sharing approaches: combine all the data from different resources
+* federated approach: connecting national genomic initiatives (original data stays on the local resoures): you don't get access to the data itself, but you get back information about the existance of a certain variant in a certain database
+* Progenetix
+
 ## Terminology
 * Gb = Giga bases
 
