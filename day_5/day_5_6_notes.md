@@ -33,6 +33,9 @@
 
 ### Genome Editions
 
+* mess with genome editions: how do you count bases in the genome?
+* reference genome that is used as standard now: GRCh38
+* **250 MB**: size of chr1 (it's the largest chromosome) - 47 MB: size of smallest chromosome (chr22)
 
 ### Terminology
 BAC = bacterial artificial chromosome
