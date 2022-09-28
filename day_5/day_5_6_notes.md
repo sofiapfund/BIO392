@@ -22,7 +22,7 @@
 
 ### Genomic File Formats
 
-* **one 30x BAM file = 100 GB**
+* ‼️ **one 30x BAM file = 100 GB**
 * either **text** or **binary** formats are used 
 * what are possible ways to compress a **BAM** even more? Comparison to a reference genome: only store the differences compared to the reference genome (**CRAM**): there is an API for this ▶️ RefGet
 * ‼️ VCF (**slide 15**): variant call format ▶️ why "call"? 
@@ -35,7 +35,7 @@
 
 * mess with genome editions: how do you count bases in the genome?
 * reference genome that is used as standard now: GRCh38
-* **250 MB**: size of chr1 (it's the largest chromosome) - 47 MB: size of smallest chromosome (chr22)
+* ‼️ **250 MB**: size of chr1 (it's the largest chromosome) - **47 MB**: size of smallest chromosome (chr22)
 
 ### Terminology
 BAC = bacterial artificial chromosome
