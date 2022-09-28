@@ -42,6 +42,22 @@
 ### Genome Liftover
 * moving between different genome editions (e.g., from edition 19 to edition 38), e.g. using a Python tool like `segment_liftover`: shifts from change in regional lenths are defined in *chain files*
 * ‼️ Task: read up on liftover techniques (check their article)
+* use positional scaffolding: use info about which regions have been re-assigned
+
+## Genome Resources
+Many different places where sequences are stored.
+
+* **UCSC Genome Browser**: 
+   * most widely used general genome browser
+   * costumization with BED files
+   * lots of genome editions available
+   * genomes from many species
+
+* **NCBI**:
+   * where reference genome data is stored
+   * lots of human variants are stored here
+* **ENSEMBL**:
+   * usually stores genome of model organisms   
 
 ## Terminology
 * Gb = Giga bases
