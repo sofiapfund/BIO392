@@ -31,7 +31,7 @@
     * in a given population, most calls are from frequent variants 
     * 😞 not good for structure variants 
 
-### Genome Editions
+## Genome Editions
 
 * mess with genome editions: how do you count bases in the genome?
 * reference genome that is used as standard now: GRCh38
