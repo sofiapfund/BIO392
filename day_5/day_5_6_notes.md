@@ -65,8 +65,9 @@ Many different places where sequences are stored.
 
 ### Beyond a single resource: federation
 * data sharing approaches: combine all the data from different resources
-* federated approach: connecting national genomic initiatives (original data stays on the local resoures): you don't get access to the data itself, but you get back information about the existance of a certain variant in a certain database
-* Progenetix
+* ‼️ federated approach: connecting national genomic initiatives (original data stays on the local resoures): you don't get access to the data itself, but you get back information about the existance of a certain variant in a certain database
+* **Progenetix**: focus on data aggregation and curation; most of the data is coming from genomic arrays
+* **CURIES**: compact URIs 👉 used to identify resources (prefix + code, e.g. PMID:1234567)
 
 ## Terminology
 * Gb = Giga bases
