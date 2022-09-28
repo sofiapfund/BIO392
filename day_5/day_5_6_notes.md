@@ -33,10 +33,14 @@
 
 ## Genome Editions
 
-* mess with genome editions: how do you count bases in the genome?
+* mess with genome editions: how do you count bases in the genome? Genomic data has to be evaluated in the context of the correct edition!
 * reference genome that is used as standard now: GRCh38
-* ‼️ **250 Mb**: size of chr1 (it's the largest chromosome) - **47 Mb**: size of smallest chromosome (chr22)
+* ‼️ **250 Mb**: size of chr1 (it's the largest chromosome) - **47 Mb**: size of smallest chromosome (chr21)
 * **3 Gb**: size of the whole genome
+* tools for genome reading: e.g. `samtools`, `bcftools`, ... (recall: week 1 bash)
+
+### Genome Liftover
+* moving between different genome editions, e.g. using a Python tool like `segment_liftover
 
 ## Terminology
 * Gb = Giga bases
