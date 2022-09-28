@@ -52,12 +52,13 @@ Many different places where sequences are stored.
    * costumization with BED files
    * lots of genome editions available
    * genomes from many species
-
 * **NCBI**:
    * where reference genome data is stored
    * lots of human variants are stored here
 * **ENSEMBL**:
-   * usually stores genome of model organisms   
+
+### Resources for genome variant data
+* NCBI:dbSNP, NCBI:dbVAR, NCBI:ClinVar, EMBL-EBI:EVA
 
 ## Terminology
 * Gb = Giga bases
