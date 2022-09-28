@@ -40,7 +40,8 @@
 * tools for genome reading: e.g. `samtools`, `bcftools`, ... (recall: week 1 bash)
 
 ### Genome Liftover
-* moving between different genome editions, e.g. using a Python tool like `segment_liftover
+* moving between different genome editions (e.g., from edition 19 to edition 38), e.g. using a Python tool like `segment_liftover`: shifts from change in regional lenths are defined in *chain files*
+* ‼️ Task: read up on liftover techniques (check their article)
 
 ## Terminology
 * Gb = Giga bases
