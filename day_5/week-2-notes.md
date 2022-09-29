@@ -69,6 +69,9 @@ Many different places where sequences are stored.
 * **Progenetix**: focus on data aggregation and curation; most of the data is coming from genomic arrays
 * **CURIES**: compact URIs 👉 used to identify resources (prefix + code, e.g. PMID:1234567)
 
+## BLAST
+
+
 ## Terminology
 * Gb = Giga bases
 
