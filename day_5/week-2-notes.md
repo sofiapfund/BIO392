@@ -70,12 +70,14 @@ Many different places where sequences are stored.
 * **CURIES**: compact URIs 👉 used to identify resources (prefix + code, e.g. PMID:1234567)
 
 ## BLAST
-
+* algorithm used to compare biological sequences (AA, DNA-DNA, RNA-RNA)
+* based on **local alignment**
+* idea: infer function of protein of interest based on sequence similarities
+* sequence information is extracted from nucleic acid databases (INSDC) and protein databases (Uniprot)
+* similarity (can be quantified) vs. homology (cannot be quantified; implies evolutionary relationship)
 
 ## Terminology
 * Gb = Giga bases
-
 * BAC = bacterial artificial chromosome
-
 * YAC = yeast artificial chromosome
 
