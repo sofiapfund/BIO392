@@ -78,6 +78,9 @@ Many different places where sequences are stored.
 * BLOSUM matrix with higher number if you have more knowdledge about the sequences that you are comparing
 * different matrices produce different scores: it doens't make sense to compare alignments obtained using difference matrices
 * words with score above 13 will be considered as neighborhood (slide 11)
+* database size is taken into account for E-value calculation; the smaller, the better the more significant the alignment is
+* 100% query coverage = 100% of the sequence is aligned to the reference sequence
+* 
 
 ## Terminology
 * Gb = Giga bases
