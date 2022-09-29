@@ -80,7 +80,7 @@ Many different places where sequences are stored.
 * words with score above 13 will be considered as neighborhood (slide 11)
 * database size is taken into account for E-value calculation; the smaller, the better the more significant the alignment is
 * 100% query coverage = 100% of the sequence is aligned to the reference sequence
-* 
+
 
 ## Terminology
 * Gb = Giga bases
