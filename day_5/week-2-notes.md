@@ -75,6 +75,9 @@ Many different places where sequences are stored.
 * idea: infer function of protein of interest based on sequence similarities
 * sequence information is extracted from nucleic acid databases (INSDC) and protein databases (Uniprot)
 * similarity (can be quantified) vs. homology (cannot be quantified; implies evolutionary relationship)
+* BLOSUM matrix with higher number if you have more knowdledge about the sequences that you are comparing
+* different matrices produce different scores: it doens't make sense to compare alignments obtained using difference matrices
+* words with score above 13 will be considered as neighborhood (slide 11)
 
 ## Terminology
 * Gb = Giga bases
