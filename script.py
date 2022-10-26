@@ -28,24 +28,28 @@ erbb2_group_info = pd.read_csv("data/biosample-ERBB2.tsv", sep="\t")
 # tumor data
 lymphoma = pd.read_csv("data/lymphoma.csv")
 
+####################### Step 3: data pre-processing ###########################
+
+# find lymphoma: ?????????
+
 # create new datasets by matching "sample_id" column from lymphoma with "id" column from group_info:
-tp53_dataset = pd.merge(lymphoma, tp_53_group_info, left_on = "id", right_on = "biosample_id") # filter for rows where "biosample_id" matches the "id"
-tp53_dataset["group"] = "tp53"
+tp53_df = pd.merge(lymphoma, tp_53_group_info, left_on = "id", right_on = "biosample_id") # filter for rows where "biosample_id" matches the "id"
+cdkn2a_df = pd.merge(lymphoma, cdkn2a_group_info, left_on = "id", right_on = "biosample_id")
+myc_df = pd.merge(lymphoma, myc_group_info, left_on = "id", right_on = "biosample_id")
+erbb2_df = pd.merge(lymphoma, erbb2_group_info, left_on = "id", right_on = "biosample_id")
 
-cdkn2a_dataset = pd.merge(lymphoma, cdkn2a_group_info, left_on = "id", right_on = "biosample_id")
-cdkn2a_dataset["group"] = "cdkn2a"
+# add column with label for later classification:
+tp53_df["group"] = "tp53" # lymphoma tumor samples that have mutations in the tp53 gene
+cdkn2a_df["group"] = "cdkn2a"
+myc_df["group"] = "myc"
+erbb2_df["group"] = "erbb2"
 
-myc_dataset = pd.merge(lymphoma, myc_group_info, left_on = "id", right_on = "biosample_id")
-myc_dataset["group"] = "myc"
 
-erbb2_dataset = pd.merge(lymphoma, erbb2_group_info, left_on = "id", right_on = "biosample_id")
-erbb2_dataset["group"] = "erbb2"
-
-whole_dataset = pd.concat([tp53_dataset, cdkn2a_dataset, myc_dataset, erbb2_dataset])
+whole_df = pd.concat([tp53_df, cdkn2a_df, myc_df, erbb2_df])
 #print(whole_dataset.shape)
 
 # select features of interest:
-whole_dataset = whole_dataset[['info.followupMonths', 'info.death', 'group', 'histologicalDiagnosis.id',
+whole_df = whole_df[['info.followupMonths', 'info.death', 'group', 'histologicalDiagnosis.id',
                                 'info.cnvstatistics.cnvfraction', 'sex', 'pathologicalStage.label',
                                 'info.cnvstatistics.dupfraction',
                                 'info.cnvstatistics.delfraction']]
@@ -54,7 +58,7 @@ whole_dataset = whole_dataset[['info.followupMonths', 'info.death', 'group', 'hi
 whole_dataset = whole_dataset.dropna()
 
 # get info about the dataset:
-whole_dataset.info()
+whole_df.info()
 
 ######### KM plots ##############################################################
 
