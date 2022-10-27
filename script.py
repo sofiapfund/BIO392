@@ -121,7 +121,7 @@ plt.show()
 # compute survival based on tumor type:
 time = filtered_df["info.followupMonths"]
 event = filtered_df["info.death"]
-tumor = filtered_df["name"]
+tumor = filtered_df["name"] # get different curves based on tumor type
 results_3 = km.fit(time, event, tumor) # visualize Kaplan-Meier plot
 km.plot(results_3)
 plt.show()
