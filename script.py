@@ -13,9 +13,11 @@ import pandas as pd
 import numpy as np
 
 # data visualization
-import kaplanmeier as km
 import matplotlib.pyplot as plt
 import seaborn as sns
+
+# survival estimator
+import kaplanmeier as km
 
 ####################### Step 2: import the data ##############################
 
