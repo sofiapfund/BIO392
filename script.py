@@ -130,7 +130,7 @@ plt.show()
 
 ####################### Step 5: exploratory analysis #######################
 
-### Q1: Does CNV fraction change depending on tumor stage?
+### CNV fraction change depending on tumor stage
 
 # sort the dataset by stage
 filtered_df = filtered_df.sort_values(['pathologicalStage.label'])
@@ -145,7 +145,7 @@ plt.show()
 
 #---------------------------------------------------------------------------#
 
-### Q2: Does CNV fraction change depending on tumor type?
+### CNV fraction change depending on tumor type
 plt.figure(figsize=(15,6))
 sns.violinplot(x='name',y="info.cnvstatistics.cnvfraction", data=filtered_data, palette='rainbow')
 plt.title("Violin Plot of CNV fraction by Tumor Type")
@@ -155,7 +155,7 @@ plt.show()
 
 #---------------------------------------------------------------------------#
 
-## Q3: Does CNV fraction change depending on mutated gene? 
+## CNV fraction change depending on mutated gene 
 plt.figure(figsize=(10,6))
 sns.violinplot(x='group',y="info.cnvstatistics.cnvfraction", data=filtered_data, palette='rainbow')
 plt.title("Violin Plot of CNV fraction vs. Mutated Gene")
